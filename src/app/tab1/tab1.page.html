@@ -1,36 +1,25 @@
-<ion-content>
-  <ion-fab vertical="top" horizontal="end">
-    <ion-fab-button (click)="addLikes()">
-      <ion-icon name="thumbs-up-sharp"></ion-icon>
-    </ion-fab-button>
-      <ion-badge color="danger">{{likes}}</ion-badge>
-  </ion-fab>
-  <ion-grid>
-    <ion-row>
-      <ion-col id="fotoPerfilCol">
-        <ion-icon name="person-outline" id="fotoPerfilIcon"></ion-icon>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col id="nome">nome de usuário</ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col id="apelido">Apelido</ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col class="i3"><ion-icon name="logo-angular"></ion-icon></ion-col>
-      <ion-col class="i1"><ion-icon name="logo-react"></ion-icon></ion-col>
-      <ion-col class="i3"><ion-icon name="logo-ionic"></ion-icon></ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col class="i1"><ion-icon name="logo-javascript"></ion-icon></ion-col>
-      <ion-col class="i1"><ion-icon name="logo-nodejs"></ion-icon></ion-col>
-      <ion-col class="i1"><ion-icon name="logo-npm"></ion-icon></ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col class="i3"><ion-icon name="logo-sass"></ion-icon></ion-col>
-      <ion-col class="i1"><ion-icon name="logo-twitch"></ion-icon></ion-col>
-      <ion-col class="i3"><ion-icon name="logo-wordpress"></ion-icon></ion-col>
-    </ion-row>
-  </ion-grid>
+
+  <ion-header>
+    <ion-item lines="none">
+      <ion-icon ></ion-icon>
+      <ion-icon name="cart-sharp" slot="end"></ion-icon>
+    </ion-item>
+    <ion-toolbar>
+      <ion-searchbar></ion-searchbar>
+    </ion-toolbar>
+  </ion-header>
+  <ion-item [button]="true" lines="full">
+    <ion-icon name="location-outline" class="envio"></ion-icon>
+    <ion-label>Enviar para:  </ion-label>
+    <ion-note slot="end"></ion-note>
+  </ion-item>
+  <ion-content>
+  <ion-item lines="full">
+    <ion-icon name="snow-outline" class="envio"></ion-icon>
+    <ion-label>Promoções de Natal</ion-label>
+    <ion-icon name="information-circle" slot="end"></ion-icon>
+  </ion-item>
+
+
+
 </ion-content>

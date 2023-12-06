@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Tab5Page implements OnInit {
 
+
+  likes:number=0
+  addLikes(){
+    this.likes++
+  }
+
   constructor() { }
 
   ngOnInit() {
