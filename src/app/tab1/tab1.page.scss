@@ -24,15 +24,10 @@ ion-col {
     text-align: center;
 }
 
-#fotoPerfilIcon {
-    font-size: 180px;
-    color: #fff;
+.testee{
+    background-color: #3880f3;
 }
 
-#fotoPerfilCol {
-    background-color: rgb(32, 135, 154);
-    padding: 40px;
-}
 
 #nome {
     background-color: #fff;
@@ -51,25 +46,54 @@ ion-col {
 }
 
 .i1 {
-    background-color: rgba(195, 0, 255, 0.521);
-    font-size: 40px;
+    background-color: #fff;
+    font-size: 15px;
     padding: 10px;
     margin: 5px;
+    width: 15vw;
+    height: 15vh;
+    font-weight: 600;
+    color: #525252;
+    border: 1px solid rgba(0, 0, 0, 0.87);
 }
 
 .i2 {
-    background-color: rgba(0, 255, 34, 0.493);
-    font-size: 40px;
+    background-color: #fff;
+    font-size: 15px;
     padding: 10px;
     margin: 5px;
+    width: 15vw;
+    height: 15vh;
+    font-weight: 600;
+    color: #525252;
+    border: 1px solid rgba(0, 0, 0, 0.87);
 }
 
 
 .i3 {
-    background-color: rgba(238, 255, 0, 0.507);
-    font-size: 40px;
+    background-color: #fff;
+    font-size: 15px;
     padding: 10px;
     margin: 5px;
+    width: 15vw;
+    height: 15vh;
+    font-weight: 600;
+    color: #525252;
+    margin-top: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.87);
+}
+
+.i4 {
+    background-color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+    width: 15vw;
+    height: 15vh;
+    font-weight: 600;
+    color: #525252;
+    margin-top: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.87);
 }
 
 ion-badge{
@@ -91,6 +115,53 @@ ion-fab{
     width: 8vw;
     float: right;
 }
+
+ion-card-content{
+    padding: 10px;
+}
+
+ion-list{
+    border-radius: 10px;
+    height: 40vh;
+    padding: 15px;
+
+    
+
+}
+
+ion-thumbnail > img{
+    border-radius: 10px;
+
+}
+
+ion-card > ion-button{
+    margin-left: 15px;
+    
+}
+
+ion-card{
+    padding-bottom: 10px;
+    
+}
+
+.departs > ion-item{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ion-col > img {
+    width: 100px;
+    height: 100px;
+}
+
+.body{
+    background-color: rgb(185, 185, 185);
+}
+
+
+
+
 
 
 
