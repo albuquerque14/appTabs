@@ -1,17 +1,21 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-searchbar color="light" class="barra"></ion-searchbar>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card *ngFor="let p of produtos" class="cardzin">
+    <ion-row>
+      <ion-col size="3" position="relative">
+        <img alt="Product image" src={{p.imagem}}/>
+      </ion-col>
+      <ion-col size="9" position="relative">
+        <ion-card-header>
+          <ion-card-subtitle class="sub">{{p.preco}}</ion-card-subtitle>
+          <ion-card-title class="font">{{p.produto}}</ion-card-title>
+          <ion-icon name="bookmark-outline" class="icon-over-text"></ion-icon>
+        </ion-card-header>
+      </ion-col>
+    </ion-row>
+    <ion-button expand="block" class="btn">Comprar<ion-icon name="cart-sharp" slot="end"></ion-icon></ion-button>
+  </ion-card>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  
 </ion-content>

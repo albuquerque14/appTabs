@@ -1,17 +1,61 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
+<div class="header">
+  <ion-header>
+    <ion-item lines="none" color="primary"> 
+      <ion-label>VTR</ion-label>
+      <ion-icon name="cart-sharp" slot="end"></ion-icon>
+    </ion-item>
   </ion-header>
+      <ion-searchbar color="light" class="testee"></ion-searchbar>
+  <ion-item [button]="true" lines="full" color="primary"class="envio">
+    <ion-icon name="location-outline"></ion-icon>
+    <ion-label>Enviar para:  </ion-label>
+    <ion-note slot="end"></ion-note>
+  </ion-item>
+</div>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+<ion-content>
+  <ion-card>
+    <img alt="Silhouette of mountains" src="../../assets/logos/_350675f7-e9b1-49e2-9dbf-e6587caddd88.jpg" />
+    <ion-card-header>
+      <ion-card-title>Mouses 30% off</ion-card-title>
+      <ion-card-subtitle>Destaques</ion-card-subtitle>
+    </ion-card-header>
+    <ion-button expand="full">Saiba Mais</ion-button>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Silhouette of mountains" src="../../assets/logos/_860fa8b5-a023-4b74-b664-f8c9e4445501.jpg" />
+    <ion-card-header>
+      <ion-card-title>Produtos Hyperx com desconto</ion-card-title>
+      <ion-card-subtitle>Destaques</ion-card-subtitle>
+    </ion-card-header>
+    <ion-button expand="full">Saiba Mais</ion-button>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Silhouette of mountains" src="../../assets/logos/_a4002d69-2dac-43b4-b746-39146bcbaac9.jpg" />
+    <ion-card-header>
+      <ion-card-title>Nvidia 10% off</ion-card-title>
+      <ion-card-subtitle>Destaques</ion-card-subtitle>
+    </ion-card-header>
+    <ion-button expand="full">Saiba Mais</ion-button>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Silhouette of mountains" src="../../assets/logos/_ce172554-bb25-4f74-9d0e-82344e43b744.jpg" />
+    <ion-card-header>
+      <ion-card-title>Processadores intel 20% off</ion-card-title>
+      <ion-card-subtitle>Destaques</ion-card-subtitle>
+    </ion-card-header>
+    <ion-button expand="full">Saiba Mais</ion-button>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Silhouette of mountains" src="../../assets/logos/_fe8fe796-6460-4193-af37-40f3e2f730d9.jpg" />
+    <ion-card-header>
+      <ion-card-title>Iphone 5% off</ion-card-title>
+      <ion-card-subtitle>Destaques</ion-card-subtitle>
+    </ion-card-header>
+    <ion-button expand="full">Saiba Mais</ion-button>
+  </ion-card>
 </ion-content>

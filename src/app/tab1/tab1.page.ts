@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
@@ -22,6 +23,10 @@ export class Tab1Page {
         imagem:"https://static.netshoes.com.br/produtos/tenis-mizuno-brave-6/40/2FU-6366-040/2FU-6366-040_zoom1.jpg" 
     },
  ]
+
   constructor() {}
 
+  
+
 }
+

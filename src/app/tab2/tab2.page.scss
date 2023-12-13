@@ -1,0 +1,56 @@
+.barra{
+    background-color: #3880f3;
+}
+
+ion-card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f1f1f1; /* Substitua '#111D12' pela cor desejada */
+  }
+  
+  ion-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  ion-button {
+    margin-top: auto;
+  }
+
+  ion-col > img{
+    height: 13vh;
+    width: 25vw;
+  }
+  
+  .icon-over-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    font-size: 35px; /* Ajuste este valor para alterar o tamanho do ícone */
+  }
+
+  .font{
+    font-size: medium;
+  }
+
+  .sub{
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: orangered;
+  }
+
+  ion-content {
+    --ion-background-color: #f1f1f1;
+  }
+
+  .cardzin{
+    background-color: white;
+  }
+
+ 
+  
+
+  

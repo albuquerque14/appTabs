@@ -54,7 +54,12 @@ ion-col {
     height: 15vh;
     font-weight: 600;
     color: #525252;
-    border: 1px solid rgba(0, 0, 0, 0.87);
+    border-radius: 8px;
+}
+
+.i2 > img{
+    height: 13vh;
+    width: 28vw;
 }
 
 .i2 {
@@ -66,9 +71,13 @@ ion-col {
     height: 15vh;
     font-weight: 600;
     color: #525252;
-    border: 1px solid rgba(0, 0, 0, 0.87);
+    border-radius: 8px;
 }
 
+.i2 > img{
+    height: 13vh;
+    width: 28vw;
+}
 
 .i3 {
     background-color: #fff;
@@ -80,7 +89,12 @@ ion-col {
     font-weight: 600;
     color: #525252;
     margin-top: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.87);
+    border-radius: 8px;
+}
+
+.i3 > img{
+    height: 13vh;
+    width: 24vw;
 }
 
 .i4 {
@@ -93,7 +107,48 @@ ion-col {
     font-weight: 600;
     color: #525252;
     margin-top: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.87);
+    border-radius: 8px;
+}
+
+.i4 > img{
+    height: 13vh;
+    width: 24vw;
+}
+
+.i5 {
+    background-color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+    width: 15vw;
+    height: 15vh;
+    font-weight: 600;
+    color: #525252;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.i5 > img{
+    height: 13vh;
+    width: 24vw;
+}
+
+.i6 {
+    background-color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+    width: 15vw;
+    height: 15vh;
+    font-weight: 600;
+    color: #525252;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.i6 > img{
+    height: 12vh;
+    width: 24vw;
 }
 
 ion-badge{
@@ -106,9 +161,22 @@ ion-fab{
     right: 25px;
 }
 
-.envio{
+.envio > ion-icon{
     margin-right: 10px;
 }
+
+.envio{
+    border-top: 0.5px solid rgb(0, 0, 0);
+}
+
+.natal > ion-icon{
+    margin-right: 10px;
+}
+
+.bola > ion-icon{
+    margin-right: 10px;
+}
+
 
 .carrinho{
     height: 8vh;
@@ -122,25 +190,34 @@ ion-card-content{
 
 ion-list{
     border-radius: 10px;
-    height: 40vh;
-    padding: 15px;
-
-    
-
+    height: 53vh;
+    padding: 25px;
+    --ion-background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    box-shadow: 4px 4px 10px;
+    margin: 10px;
 }
+
 
 ion-thumbnail > img{
     border-radius: 10px;
 
 }
 
-ion-card > ion-button{
+ion-button{
+    margin-top: 20px;
     margin-left: 15px;
+    
+    
     
 }
 
 ion-card{
     padding-bottom: 10px;
+    --ion-background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    
+    
     
 }
 
@@ -155,9 +232,25 @@ ion-col > img {
     height: 100px;
 }
 
-.body{
-    background-color: rgb(185, 185, 185);
-}
+
+ion-content {
+    --ion-background-color: #f1f1f1; /* Substitua '#111D12' pela cor desejada */
+  }
+
+  ion-carousel {
+    width: 100%;
+    height: 200px;
+  }
+  
+  ion-slide {
+    width: 100%;
+    height: 200px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
 
 
 

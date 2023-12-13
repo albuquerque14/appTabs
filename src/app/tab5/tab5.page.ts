@@ -13,6 +13,18 @@ export class Tab5Page implements OnInit {
     this.likes++
   }
 
+  public alertButtons = [
+    {
+      text: 'Não',
+      cssClass: 'alert-button-cancel',
+    },
+    {
+      text: 'Sim',
+      cssClass: 'alert-button-confirm',
+    },
+  ];
+
+
   constructor() { }
 
   ngOnInit() {
