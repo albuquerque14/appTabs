@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
-
+import { Component, AfterViewInit } from '@angular/core'
+import Swiper from 'swiper';
 
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
-export class Tab1Page {
+export class Tab1Page implements AfterViewInit {
 
   likes:number=0
   addLikes(){
@@ -24,9 +24,25 @@ export class Tab1Page {
     },
  ]
 
-  constructor() {}
+ ngAfterViewInit() {
+  // Inicialize o Swiper aqui
+  const mySwiper = new Swiper('.swiper-container', {
+    // Configurações do Swiper, consulte a documentação do Swiper para mais opções
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+ });
+
+ 
 
   
 
-}
+ }}
 

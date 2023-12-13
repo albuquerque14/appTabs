@@ -252,8 +252,23 @@ ion-content {
     height: 100%;
   }
 
+  :swiper-container {
+    height: 300px; /* ou a altura desejada */
+    z-index: 0; /* Certifica-se de que o swiper fique atrás dos cards */
+    
+  }
+  /* Opcional: Ajuste o estilo das setas de navegação conforme necessário */
+  .swiper-button-next, .swiper-button-prev {
+    color: white; /* ou a cor desejada */
 
-
+  }
+  .swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 
 
